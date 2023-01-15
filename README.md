@@ -15,7 +15,7 @@ from within the `docker` directory.
 `> ./config.sh`
 
 You can access the application at 
-`https://127.0.0.1:8080/` or `https://localhost:8080/`
+`https://127.0.0.1` or `https://localhost`
 
 Note; the `build.sh` and `config.sh` commands are only needs the first time, but won't harm to run each time.
 Once finished call the stop command to bring down docker container and application.
@@ -35,7 +35,7 @@ The following section provides further details on the docker methods used within
 
 ## Application Access
 
-- Main Application: `http://localhost:8080/`
+- Main Application: `http://localhost`
 - PhpMyAdmin: `http://localhost:8181/`
 - Email (SMPT catcher) `http://localhost:3000/`
 
